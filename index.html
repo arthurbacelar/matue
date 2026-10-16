@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10110f">
+    <meta name="description" content="Um espaço feito por fãs para celebrar a música e a trajetória de Matuê.">
+    <title>Matuê — Fã-clube</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Matuê Fã-clube — início">M<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a class="nav-cta" href="#fã-clube">Fã-clube <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <img class="hero-image" src="matue4.jpg" alt="Matuê no palco, em meio à fumaça de um show">
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span></span> Feito por fãs, para fãs</p>
+          <h1 id="hero-title">Matuê<span class="title-dot">.</span></h1>
+          <p class="hero-copy">Um som, uma identidade, um universo inteiro.</p>
+          <a class="button button-light" href="#sobre">Explore o universo <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-index" aria-hidden="true">01 / 03</p>
+        <a class="scroll-cue" href="#sobre">Role para descobrir <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section class="intro section-wrap" id="sobre" aria-labelledby="intro-title">
+        <div class="section-kicker"><span>01</span> / QUEM É MATUÊ</div>
+        <div class="intro-grid">
+          <div>
+            <p class="eyebrow accent-eyebrow">O artista, a inspiração</p>
+            <h2 id="intro-title">Muito além<br>do <em>som.</em></h2>
+          </div>
+          <div class="intro-copy">
+            <p>Matuê construiu uma identidade que atravessa a música, a estética e a cultura. Este espaço celebra essa trajetória e reúne fãs que acompanham cada fase dessa jornada.</p>
+            <a class="text-link" href="#galeria">Ver galeria <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="feature-image">
+          <img src="matue.jpg" alt="Retrato de Matuê em preto e branco">
+          <span class="image-caption">A música encontra a atitude.</span>
+        </div>
+      </section>
+
+      <section class="gallery-section" id="galeria" aria-labelledby="gallery-title">
+        <div class="section-wrap">
+          <div class="section-kicker"><span>02</span> / MOMENTOS</div>
+          <div class="gallery-heading">
+            <div>
+              <p class="eyebrow accent-eyebrow">Em imagens</p>
+              <h2 id="gallery-title">Na nossa <em>memória.</em></h2>
+            </div>
+            <p class="gallery-note">Uma seleção de imagens para celebrar o artista e sua conexão com os fãs.</p>
+          </div>
+          <div class="gallery-grid">
+            <button class="gallery-card gallery-card-wide" type="button" data-image="matue2.jpg" data-alt="Matuê usando um boné vermelho">
+              <img src="matue2.jpg" alt="Matuê usando um boné vermelho">
+              <span class="card-caption"><span>01</span> Estilo sem rótulos <span aria-hidden="true">↗</span></span>
+            </button>
+            <button class="gallery-card" type="button" data-image="matue3.jpg" data-alt="Matuê em uma cena de visual futurista com luzes roxas">
+              <img src="matue3.jpg" alt="Matuê em uma cena de visual futurista com luzes roxas">
+              <span class="card-caption"><span>02</span> Outro universo <span aria-hidden="true">↗</span></span>
+            </button>
+            <button class="gallery-card" type="button" data-image="matue4.jpg" data-alt="Matuê se apresentando no palco">
+              <img src="matue4.jpg" alt="Matuê se apresentando no palco">
+              <span class="card-caption"><span>03</span> No palco <span aria-hidden="true">↗</span></span>
+            </button>
+            <button class="gallery-card" type="button" data-image="matue5.jpg" data-alt="Retrato de Matuê em tons escuros, usando óculos">
+              <img src="matue5.jpg" alt="Retrato de Matuê em tons escuros, usando óculos">
+              <span class="card-caption"><span>04</span> Nos bastidores <span aria-hidden="true">↗</span></span>
+            </button>
+            <button class="gallery-card" type="button" data-image="matue6.jpg" data-alt="Matuê em frente a um avião">
+              <img src="matue6.jpg" alt="Matuê em frente a um avião">
+              <span class="card-caption"><span>05</span> Novos caminhos <span aria-hidden="true">↗</span></span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="fan-section" id="fã-clube" aria-labelledby="fan-title">
+        <div class="fan-content">
+          <p class="eyebrow">A comunidade</p>
+          <h2 id="fan-title">O som conecta.<br><em>A gente também.</em></h2>
+          <p>Este é um fã-clube independente e não oficial, feito para compartilhar a admiração por Matuê.</p>
+          <a class="button button-dark" href="#inicio">Voltar ao início <span aria-hidden="true">↑</span></a>
+        </div>
+        <span class="fan-mark" aria-hidden="true">M.</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#inicio" aria-label="Voltar ao início">M<span>.</span></a>
+      <p>Fã-clube independente. Sem vínculo oficial com o artista.</p>
+      <p>© <span id="current-year"></span> — Feito por fãs.</p>
+    </footer>
+
+    <dialog class="image-dialog" aria-label="Imagem ampliada">
+      <button class="dialog-close" type="button" aria-label="Fechar imagem">×</button>
+      <img src="" alt="">
+    </dialog>
+  </body>
+</html>
